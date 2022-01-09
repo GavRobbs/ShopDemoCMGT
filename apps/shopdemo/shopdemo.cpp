@@ -1,7 +1,10 @@
 #include<iostream>
+#include "../../include/shop/shop.h"
 
 int main(int argc, char **argv)
 {
-    std::cout << "Hello World \n";
+    Shop myShop{"Friar Truck"};
+    myShop.Init();
+    myShop.Prompt();
     return 0;
 }
